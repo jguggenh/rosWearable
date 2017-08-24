@@ -1,5 +1,6 @@
 #include <ros.h>
 #include <ArduinoHardware.h>
+#include <std_msgs/Int16.h>
 #include <std_msgs/Float64.h>
 #include <VarSpeedServo.h>
 
@@ -22,9 +23,9 @@ int servo2Offset = -17;
 ros::NodeHandle ard2Servos;
 //std_msgs::Float64 leftJoyX;
 
-void joyCallback(const std_msgs::Float64& joyData)
+void emgCallback(const std_msgs::Int16& emgData)
 {
- int servo1Pos = joyData.data;
+ int servo1Pos = emgData.data;
  servo1.slowmove(180-servo1Pos+servo1Offset, servo1Speed);
 }
 
@@ -34,15 +35,15 @@ void leadCallback(const std_msgs::Float64& leadData)
  servo2.slowmove(servo2Pos+servo2Offset, servo2Speed);
 }
   
-// create subscribers to both xboxPub and leadArmPub  
-ros::Subscriber<std_msgs::Float64> xboxSub("xboxPub", &joyCallback);
+// create subscribers to both emgPub and leadArmPub  
+ros::Subscriber<std_msgs::Int16> emgSub("servoPosEMG", &emgCallback);
 ros::Subscriber<std_msgs::Float64> leadSub("leadArmPub", &leadCallback);
 
 void setup()
 {
   //initiate ros
   ard2Servos.initNode();
-  ard2Servos.subscribe(xboxSub);
+  ard2Servos.subscribe(emgSub);
   ard2Servos.subscribe(leadSub);
   
   // initiate servo1

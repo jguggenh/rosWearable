@@ -1,0 +1,6 @@
+set(readEMG_SETUP_PY_VERSION "0.0.0")
+set(readEMG_SETUP_PY_SCRIPTS "")
+set(readEMG_SETUP_PY_PACKAGES "readEMG")
+set(readEMG_SETUP_PY_PACKAGE_DIRS "scripts/readEMG")
+set(readEMG_SETUP_PY_MODULES "")
+set(readEMG_SETUP_PY_MODULE_DIRS "")

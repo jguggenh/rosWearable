@@ -4,7 +4,7 @@ addpath(genpath(pwd));
 
 %% start initializing parameters
 %Simulation sampling time
-Ts_sim = 0.004 %[s]
+Ts_sim = 0.004; %[s]
 
 %Control strategy: always velocity control (PI)
 %Input to the controller
@@ -116,11 +116,11 @@ if input_type==2
     %Remove first second of calibration data
     %(the initial value of the raw EMG signals is zero)
     time_calRT = time_calRT(250:end);           %[s]
-    EMG_vect_calRT = EMG_vect_calRT(250:end,:); %[V] (4 channels)
+    EMG_vect_calRT = double(EMG_vect_calRT(250:end,:)); %[V] (4 channels)
 
     %Extract calbiration constants for real-time testing
-    min_EMG_RT   = min(EMG_vect_calRT);
-    delta_EMG_RT = max(EMG_vect_calRT)-min(EMG_vect_calRT);
+    min_EMG_RT   = double(min(EMG_vect_calRT));
+    delta_EMG_RT = double(max(EMG_vect_calRT)-min(EMG_vect_calRT));
 
     %Plot EMG data after calibration
     figure(1)
@@ -134,5 +134,3 @@ if input_type==2
         end   
     end
 end
-
-

@@ -35,19 +35,20 @@ void setup(void)
   
   // initiate adc
   ads1.begin();
-  ads2.begin();   
+//  ads2.begin();   
   multiplier = ads1.voltsPerBit()*1000.0F;    
 
   // set sample rate to 860
   ads1.setSPS(ADS1115_DR_860SPS); 
-  ads2.setSPS(ADS1115_DR_860SPS);  
+//  ads2.setSPS(ADS1115_DR_860SPS);  
 }
 
 void loop(void)
 {
   // read emg signal
   emgSignal.data[0] = ads1.readADC_Differential_0_1();
-  emgSignal.data[1] = ads2.readADC_Differential_0_1();
+  emgSignal.data[1] = emgSignal.data[0];
+//  emgSignal.data[1] = ads2.readADC_Differential_0_1();
 
     
   // publish that value
