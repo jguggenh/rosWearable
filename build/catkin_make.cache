@@ -1,2 +1,2 @@
-controlSignal2Arduino:logExpOutput:readEMG:xboxPublisher
+controlServos:emg2ServoPos:experimentLogic:logExpOutput:readEMG:xboxPublisher
 -DCATKIN_DEVEL_PREFIX=/home/jacob/rosWearableWS/devel -DCMAKE_INSTALL_PREFIX=/home/jacob/rosWearableWS/install -G Unix Makefiles

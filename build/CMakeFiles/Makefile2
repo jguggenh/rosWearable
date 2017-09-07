@@ -303,6 +303,206 @@ clean: gtest/CMakeFiles/gtest_main.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory controlServos
+
+# Convenience name for "all" pass in the directory.
+controlServos/all:
+
+.PHONY : controlServos/all
+
+# Convenience name for "clean" pass in the directory.
+controlServos/clean: controlServos/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+controlServos/clean: controlServos/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+controlServos/clean: controlServos/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+controlServos/clean: controlServos/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+controlServos/clean: controlServos/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : controlServos/clean
+
+# Convenience name for "preinstall" pass in the directory.
+controlServos/preinstall:
+
+.PHONY : controlServos/preinstall
+
+#=============================================================================
+# Target rules for target controlServos/CMakeFiles/std_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+controlServos/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f controlServos/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make controlServos/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f controlServos/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make controlServos/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
+.PHONY : controlServos/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+controlServos/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 controlServos/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
+.PHONY : controlServos/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_nodejs: controlServos/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : std_msgs_generate_messages_nodejs
+
+# clean rule for target.
+controlServos/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f controlServos/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make controlServos/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+.PHONY : controlServos/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: controlServos/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target controlServos/CMakeFiles/std_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+controlServos/CMakeFiles/std_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f controlServos/CMakeFiles/std_msgs_generate_messages_py.dir/build.make controlServos/CMakeFiles/std_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f controlServos/CMakeFiles/std_msgs_generate_messages_py.dir/build.make controlServos/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
+.PHONY : controlServos/CMakeFiles/std_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+controlServos/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 controlServos/CMakeFiles/std_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
+.PHONY : controlServos/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_py: controlServos/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+
+.PHONY : std_msgs_generate_messages_py
+
+# clean rule for target.
+controlServos/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f controlServos/CMakeFiles/std_msgs_generate_messages_py.dir/build.make controlServos/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+.PHONY : controlServos/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: controlServos/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target controlServos/CMakeFiles/std_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+controlServos/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f controlServos/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make controlServos/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f controlServos/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make controlServos/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
+.PHONY : controlServos/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+controlServos/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 controlServos/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
+.PHONY : controlServos/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_lisp: controlServos/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : std_msgs_generate_messages_lisp
+
+# clean rule for target.
+controlServos/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f controlServos/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make controlServos/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+.PHONY : controlServos/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: controlServos/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target controlServos/CMakeFiles/std_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+controlServos/CMakeFiles/std_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f controlServos/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make controlServos/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f controlServos/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make controlServos/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
+.PHONY : controlServos/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+controlServos/CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 controlServos/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
+.PHONY : controlServos/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_eus: controlServos/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+
+.PHONY : std_msgs_generate_messages_eus
+
+# clean rule for target.
+controlServos/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f controlServos/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make controlServos/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+.PHONY : controlServos/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: controlServos/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target controlServos/CMakeFiles/std_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+controlServos/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f controlServos/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make controlServos/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f controlServos/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make controlServos/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
+.PHONY : controlServos/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+controlServos/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 controlServos/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
+.PHONY : controlServos/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_cpp: controlServos/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : std_msgs_generate_messages_cpp
+
+# clean rule for target.
+controlServos/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f controlServos/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make controlServos/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+.PHONY : controlServos/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: controlServos/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory emg2ServoPos
+
+# Convenience name for "all" pass in the directory.
+emg2ServoPos/all:
+
+.PHONY : emg2ServoPos/all
+
+# Convenience name for "clean" pass in the directory.
+emg2ServoPos/clean:
+
+.PHONY : emg2ServoPos/clean
+
+# Convenience name for "preinstall" pass in the directory.
+emg2ServoPos/preinstall:
+
+.PHONY : emg2ServoPos/preinstall
+
+#=============================================================================
 # Directory level rules for directory logExpOutput
 
 # Convenience name for "all" pass in the directory.
@@ -311,11 +511,7 @@ logExpOutput/all:
 .PHONY : logExpOutput/all
 
 # Convenience name for "clean" pass in the directory.
-logExpOutput/clean: logExpOutput/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-logExpOutput/clean: logExpOutput/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-logExpOutput/clean: logExpOutput/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-logExpOutput/clean: logExpOutput/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-logExpOutput/clean: logExpOutput/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+logExpOutput/clean:
 
 .PHONY : logExpOutput/clean
 
@@ -323,166 +519,6 @@ logExpOutput/clean: logExpOutput/CMakeFiles/std_msgs_generate_messages_cpp.dir/c
 logExpOutput/preinstall:
 
 .PHONY : logExpOutput/preinstall
-
-#=============================================================================
-# Target rules for target logExpOutput/CMakeFiles/std_msgs_generate_messages_nodejs.dir
-
-# All Build rule for target.
-logExpOutput/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f logExpOutput/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make logExpOutput/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f logExpOutput/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make logExpOutput/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
-.PHONY : logExpOutput/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-logExpOutput/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 logExpOutput/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : logExpOutput/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_nodejs: logExpOutput/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : std_msgs_generate_messages_nodejs
-
-# clean rule for target.
-logExpOutput/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f logExpOutput/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make logExpOutput/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-.PHONY : logExpOutput/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-
-# clean rule for target.
-clean: logExpOutput/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target logExpOutput/CMakeFiles/std_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-logExpOutput/CMakeFiles/std_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f logExpOutput/CMakeFiles/std_msgs_generate_messages_py.dir/build.make logExpOutput/CMakeFiles/std_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f logExpOutput/CMakeFiles/std_msgs_generate_messages_py.dir/build.make logExpOutput/CMakeFiles/std_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
-.PHONY : logExpOutput/CMakeFiles/std_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-logExpOutput/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 logExpOutput/CMakeFiles/std_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : logExpOutput/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_py: logExpOutput/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-.PHONY : std_msgs_generate_messages_py
-
-# clean rule for target.
-logExpOutput/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f logExpOutput/CMakeFiles/std_msgs_generate_messages_py.dir/build.make logExpOutput/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-.PHONY : logExpOutput/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: logExpOutput/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target logExpOutput/CMakeFiles/std_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-logExpOutput/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f logExpOutput/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make logExpOutput/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f logExpOutput/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make logExpOutput/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
-.PHONY : logExpOutput/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-logExpOutput/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 logExpOutput/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : logExpOutput/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: logExpOutput/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : std_msgs_generate_messages_lisp
-
-# clean rule for target.
-logExpOutput/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f logExpOutput/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make logExpOutput/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-.PHONY : logExpOutput/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: logExpOutput/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target logExpOutput/CMakeFiles/std_msgs_generate_messages_eus.dir
-
-# All Build rule for target.
-logExpOutput/CMakeFiles/std_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f logExpOutput/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make logExpOutput/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f logExpOutput/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make logExpOutput/CMakeFiles/std_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
-.PHONY : logExpOutput/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-
-# Build rule for subdir invocation for target.
-logExpOutput/CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 logExpOutput/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : logExpOutput/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_eus: logExpOutput/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-
-.PHONY : std_msgs_generate_messages_eus
-
-# clean rule for target.
-logExpOutput/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f logExpOutput/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make logExpOutput/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-.PHONY : logExpOutput/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-
-# clean rule for target.
-clean: logExpOutput/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target logExpOutput/CMakeFiles/std_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-logExpOutput/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f logExpOutput/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make logExpOutput/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f logExpOutput/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make logExpOutput/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
-.PHONY : logExpOutput/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-logExpOutput/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 logExpOutput/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : logExpOutput/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: logExpOutput/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : std_msgs_generate_messages_cpp
-
-# clean rule for target.
-logExpOutput/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f logExpOutput/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make logExpOutput/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-.PHONY : logExpOutput/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: logExpOutput/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-
-.PHONY : clean
 
 #=============================================================================
 # Directory level rules for directory readEMG
@@ -549,7 +585,7 @@ clean: readEMG/CMakeFiles/readEMG_genpy.dir/clean
 # Target rules for target readEMG/CMakeFiles/readEMG_generate_messages_cpp.dir
 
 # All Build rule for target.
-readEMG/CMakeFiles/readEMG_generate_messages_cpp.dir/all: logExpOutput/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+readEMG/CMakeFiles/readEMG_generate_messages_cpp.dir/all: controlServos/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 readEMG/CMakeFiles/readEMG_generate_messages_cpp.dir/all: readEMG/CMakeFiles/_readEMG_generate_messages_check_deps_EMG.dir/all
 	$(MAKE) -f readEMG/CMakeFiles/readEMG_generate_messages_cpp.dir/build.make readEMG/CMakeFiles/readEMG_generate_messages_cpp.dir/depend
 	$(MAKE) -f readEMG/CMakeFiles/readEMG_generate_messages_cpp.dir/build.make readEMG/CMakeFiles/readEMG_generate_messages_cpp.dir/build
@@ -582,7 +618,7 @@ clean: readEMG/CMakeFiles/readEMG_generate_messages_cpp.dir/clean
 # Target rules for target readEMG/CMakeFiles/readEMG_generate_messages_nodejs.dir
 
 # All Build rule for target.
-readEMG/CMakeFiles/readEMG_generate_messages_nodejs.dir/all: logExpOutput/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+readEMG/CMakeFiles/readEMG_generate_messages_nodejs.dir/all: controlServos/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 readEMG/CMakeFiles/readEMG_generate_messages_nodejs.dir/all: readEMG/CMakeFiles/_readEMG_generate_messages_check_deps_EMG.dir/all
 	$(MAKE) -f readEMG/CMakeFiles/readEMG_generate_messages_nodejs.dir/build.make readEMG/CMakeFiles/readEMG_generate_messages_nodejs.dir/depend
 	$(MAKE) -f readEMG/CMakeFiles/readEMG_generate_messages_nodejs.dir/build.make readEMG/CMakeFiles/readEMG_generate_messages_nodejs.dir/build
@@ -615,7 +651,7 @@ clean: readEMG/CMakeFiles/readEMG_generate_messages_nodejs.dir/clean
 # Target rules for target readEMG/CMakeFiles/readEMG_generate_messages_py.dir
 
 # All Build rule for target.
-readEMG/CMakeFiles/readEMG_generate_messages_py.dir/all: logExpOutput/CMakeFiles/std_msgs_generate_messages_py.dir/all
+readEMG/CMakeFiles/readEMG_generate_messages_py.dir/all: controlServos/CMakeFiles/std_msgs_generate_messages_py.dir/all
 readEMG/CMakeFiles/readEMG_generate_messages_py.dir/all: readEMG/CMakeFiles/_readEMG_generate_messages_check_deps_EMG.dir/all
 	$(MAKE) -f readEMG/CMakeFiles/readEMG_generate_messages_py.dir/build.make readEMG/CMakeFiles/readEMG_generate_messages_py.dir/depend
 	$(MAKE) -f readEMG/CMakeFiles/readEMG_generate_messages_py.dir/build.make readEMG/CMakeFiles/readEMG_generate_messages_py.dir/build
@@ -744,7 +780,7 @@ clean: readEMG/CMakeFiles/_readEMG_generate_messages_check_deps_EMG.dir/clean
 # Target rules for target readEMG/CMakeFiles/readEMG_generate_messages_eus.dir
 
 # All Build rule for target.
-readEMG/CMakeFiles/readEMG_generate_messages_eus.dir/all: logExpOutput/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+readEMG/CMakeFiles/readEMG_generate_messages_eus.dir/all: controlServos/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 readEMG/CMakeFiles/readEMG_generate_messages_eus.dir/all: readEMG/CMakeFiles/_readEMG_generate_messages_check_deps_EMG.dir/all
 	$(MAKE) -f readEMG/CMakeFiles/readEMG_generate_messages_eus.dir/build.make readEMG/CMakeFiles/readEMG_generate_messages_eus.dir/depend
 	$(MAKE) -f readEMG/CMakeFiles/readEMG_generate_messages_eus.dir/build.make readEMG/CMakeFiles/readEMG_generate_messages_eus.dir/build
@@ -818,7 +854,7 @@ clean: readEMG/CMakeFiles/readEMG_generate_messages.dir/clean
 # Target rules for target readEMG/CMakeFiles/readEMG_generate_messages_lisp.dir
 
 # All Build rule for target.
-readEMG/CMakeFiles/readEMG_generate_messages_lisp.dir/all: logExpOutput/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+readEMG/CMakeFiles/readEMG_generate_messages_lisp.dir/all: controlServos/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 readEMG/CMakeFiles/readEMG_generate_messages_lisp.dir/all: readEMG/CMakeFiles/_readEMG_generate_messages_check_deps_EMG.dir/all
 	$(MAKE) -f readEMG/CMakeFiles/readEMG_generate_messages_lisp.dir/build.make readEMG/CMakeFiles/readEMG_generate_messages_lisp.dir/depend
 	$(MAKE) -f readEMG/CMakeFiles/readEMG_generate_messages_lisp.dir/build.make readEMG/CMakeFiles/readEMG_generate_messages_lisp.dir/build
@@ -912,844 +948,844 @@ clean: readEMG/CMakeFiles/readEMG_gennodejs.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory controlSignal2Arduino
+# Directory level rules for directory experimentLogic
 
 # Convenience name for "all" pass in the directory.
-controlSignal2Arduino/all:
+experimentLogic/all:
 
-.PHONY : controlSignal2Arduino/all
+.PHONY : experimentLogic/all
 
 # Convenience name for "clean" pass in the directory.
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_py.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
-controlSignal2Arduino/clean: controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/roscpp_generate_messages_py.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
+experimentLogic/clean: experimentLogic/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 
-.PHONY : controlSignal2Arduino/clean
+.PHONY : experimentLogic/clean
 
 # Convenience name for "preinstall" pass in the directory.
-controlSignal2Arduino/preinstall:
+experimentLogic/preinstall:
 
-.PHONY : controlSignal2Arduino/preinstall
+.PHONY : experimentLogic/preinstall
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_py.dir
+# Target rules for target experimentLogic/CMakeFiles/geometry_msgs_generate_messages_py.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+experimentLogic/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make experimentLogic/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make experimentLogic/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
-.PHONY : controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+.PHONY : experimentLogic/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+.PHONY : experimentLogic/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-geometry_msgs_generate_messages_py: controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+geometry_msgs_generate_messages_py: experimentLogic/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 .PHONY : geometry_msgs_generate_messages_py
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+experimentLogic/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make experimentLogic/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+.PHONY : experimentLogic/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+clean: experimentLogic/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
+# Target rules for target experimentLogic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+experimentLogic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make experimentLogic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make experimentLogic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
-.PHONY : controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+.PHONY : experimentLogic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+.PHONY : experimentLogic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-geometry_msgs_generate_messages_nodejs: controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+geometry_msgs_generate_messages_nodejs: experimentLogic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 
 .PHONY : geometry_msgs_generate_messages_nodejs
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+experimentLogic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make experimentLogic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+.PHONY : experimentLogic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+clean: experimentLogic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
+# Target rules for target experimentLogic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+experimentLogic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make experimentLogic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make experimentLogic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
-.PHONY : controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+.PHONY : experimentLogic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+.PHONY : experimentLogic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-geometry_msgs_generate_messages_lisp: controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+geometry_msgs_generate_messages_lisp: experimentLogic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 .PHONY : geometry_msgs_generate_messages_lisp
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+experimentLogic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make experimentLogic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+.PHONY : experimentLogic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+clean: experimentLogic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
+# Target rules for target experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
-.PHONY : controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+.PHONY : experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+rosgraph_msgs_generate_messages_cpp: experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_cpp
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+.PHONY : experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+clean: experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_py.dir
+# Target rules for target experimentLogic/CMakeFiles/sensor_msgs_generate_messages_py.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+experimentLogic/CMakeFiles/sensor_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make experimentLogic/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make experimentLogic/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_py"
-.PHONY : controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+.PHONY : experimentLogic/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+.PHONY : experimentLogic/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-sensor_msgs_generate_messages_py: controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+sensor_msgs_generate_messages_py: experimentLogic/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 
 .PHONY : sensor_msgs_generate_messages_py
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+experimentLogic/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make experimentLogic/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+.PHONY : experimentLogic/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+clean: experimentLogic/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_py.dir
+# Target rules for target experimentLogic/CMakeFiles/roscpp_generate_messages_py.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_py.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_py.dir/build.make controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_py.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_py.dir/build.make controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_py.dir/build
+experimentLogic/CMakeFiles/roscpp_generate_messages_py.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/roscpp_generate_messages_py.dir/build.make experimentLogic/CMakeFiles/roscpp_generate_messages_py.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/roscpp_generate_messages_py.dir/build.make experimentLogic/CMakeFiles/roscpp_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
-.PHONY : controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_py.dir/all
+.PHONY : experimentLogic/CMakeFiles/roscpp_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/roscpp_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_py.dir/rule
+.PHONY : experimentLogic/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_py: controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_py.dir/rule
+roscpp_generate_messages_py: experimentLogic/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 .PHONY : roscpp_generate_messages_py
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_py.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_py.dir/build.make controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_py.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_py.dir/clean
+experimentLogic/CMakeFiles/roscpp_generate_messages_py.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/roscpp_generate_messages_py.dir/build.make experimentLogic/CMakeFiles/roscpp_generate_messages_py.dir/clean
+.PHONY : experimentLogic/CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_py.dir/clean
+clean: experimentLogic/CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
+# Target rules for target experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
-.PHONY : controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+.PHONY : experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+.PHONY : experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_eus: controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+rosgraph_msgs_generate_messages_eus: experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_eus
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+.PHONY : experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+clean: experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
+# Target rules for target experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
-.PHONY : controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+.PHONY : experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+.PHONY : experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_nodejs: controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+rosgraph_msgs_generate_messages_nodejs: experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_nodejs
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+.PHONY : experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+clean: experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_eus.dir
+# Target rules for target experimentLogic/CMakeFiles/geometry_msgs_generate_messages_eus.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+experimentLogic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make experimentLogic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make experimentLogic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
-.PHONY : controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+.PHONY : experimentLogic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+.PHONY : experimentLogic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-geometry_msgs_generate_messages_eus: controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+geometry_msgs_generate_messages_eus: experimentLogic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 .PHONY : geometry_msgs_generate_messages_eus
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+experimentLogic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make experimentLogic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+.PHONY : experimentLogic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+clean: experimentLogic/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_cpp.dir
+# Target rules for target experimentLogic/CMakeFiles/roscpp_generate_messages_cpp.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+experimentLogic/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make experimentLogic/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make experimentLogic/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
-.PHONY : controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+.PHONY : experimentLogic/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : experimentLogic/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_cpp: controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+roscpp_generate_messages_cpp: experimentLogic/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 .PHONY : roscpp_generate_messages_cpp
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+experimentLogic/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make experimentLogic/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+.PHONY : experimentLogic/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+clean: experimentLogic/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir
+# Target rules for target experimentLogic/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+experimentLogic/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make experimentLogic/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make experimentLogic/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_nodejs"
-.PHONY : controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+.PHONY : experimentLogic/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+.PHONY : experimentLogic/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-sensor_msgs_generate_messages_nodejs: controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+sensor_msgs_generate_messages_nodejs: experimentLogic/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 
 .PHONY : sensor_msgs_generate_messages_nodejs
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+experimentLogic/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make experimentLogic/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+.PHONY : experimentLogic/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+clean: experimentLogic/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
+# Target rules for target experimentLogic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+experimentLogic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make experimentLogic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make experimentLogic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
-.PHONY : controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+.PHONY : experimentLogic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+.PHONY : experimentLogic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-geometry_msgs_generate_messages_cpp: controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+geometry_msgs_generate_messages_cpp: experimentLogic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 .PHONY : geometry_msgs_generate_messages_cpp
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+experimentLogic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make experimentLogic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+.PHONY : experimentLogic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+clean: experimentLogic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_eus.dir
+# Target rules for target experimentLogic/CMakeFiles/roscpp_generate_messages_eus.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_eus.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_eus.dir/build.make controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_eus.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_eus.dir/build.make controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_eus.dir/build
+experimentLogic/CMakeFiles/roscpp_generate_messages_eus.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/roscpp_generate_messages_eus.dir/build.make experimentLogic/CMakeFiles/roscpp_generate_messages_eus.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/roscpp_generate_messages_eus.dir/build.make experimentLogic/CMakeFiles/roscpp_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
-.PHONY : controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_eus.dir/all
+.PHONY : experimentLogic/CMakeFiles/roscpp_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/roscpp_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+.PHONY : experimentLogic/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_eus: controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+roscpp_generate_messages_eus: experimentLogic/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 .PHONY : roscpp_generate_messages_eus
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_eus.dir/build.make controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+experimentLogic/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/roscpp_generate_messages_eus.dir/build.make experimentLogic/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+.PHONY : experimentLogic/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+clean: experimentLogic/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
+# Target rules for target experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
-.PHONY : controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+.PHONY : experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+.PHONY : experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_py: controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+rosgraph_msgs_generate_messages_py: experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_py
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+.PHONY : experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+clean: experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
+# Target rules for target experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
-.PHONY : controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+.PHONY : experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+.PHONY : experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+rosgraph_msgs_generate_messages_lisp: experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_lisp
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+.PHONY : experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+clean: experimentLogic/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_nodejs.dir
+# Target rules for target experimentLogic/CMakeFiles/roscpp_generate_messages_nodejs.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+experimentLogic/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make experimentLogic/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make experimentLogic/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
-.PHONY : controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+.PHONY : experimentLogic/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+.PHONY : experimentLogic/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_nodejs: controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+roscpp_generate_messages_nodejs: experimentLogic/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 .PHONY : roscpp_generate_messages_nodejs
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+experimentLogic/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make experimentLogic/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+.PHONY : experimentLogic/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+clean: experimentLogic/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_lisp.dir
+# Target rules for target experimentLogic/CMakeFiles/roscpp_generate_messages_lisp.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+experimentLogic/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make experimentLogic/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make experimentLogic/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
-.PHONY : controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+.PHONY : experimentLogic/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+.PHONY : experimentLogic/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_lisp: controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+roscpp_generate_messages_lisp: experimentLogic/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 .PHONY : roscpp_generate_messages_lisp
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+experimentLogic/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make experimentLogic/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+.PHONY : experimentLogic/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+clean: experimentLogic/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_py.dir
+# Target rules for target experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_py.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build
+experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target diagnostic_msgs_generate_messages_py"
-.PHONY : controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
+.PHONY : experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
+.PHONY : experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-diagnostic_msgs_generate_messages_py: controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
+diagnostic_msgs_generate_messages_py: experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
 
 .PHONY : diagnostic_msgs_generate_messages_py
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
+experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
+.PHONY : experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
+clean: experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir
+# Target rules for target experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
+experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target diagnostic_msgs_generate_messages_cpp"
-.PHONY : controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
+.PHONY : experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
+.PHONY : experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-diagnostic_msgs_generate_messages_cpp: controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
+diagnostic_msgs_generate_messages_cpp: experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
 
 .PHONY : diagnostic_msgs_generate_messages_cpp
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
+experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
+.PHONY : experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
+clean: experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir
+# Target rules for target experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build.make controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build.make controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build
+experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build.make experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build.make experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target diagnostic_msgs_generate_messages_eus"
-.PHONY : controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/all
+.PHONY : experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule
+.PHONY : experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-diagnostic_msgs_generate_messages_eus: controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule
+diagnostic_msgs_generate_messages_eus: experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule
 
 .PHONY : diagnostic_msgs_generate_messages_eus
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build.make controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean
+experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build.make experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean
+.PHONY : experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean
+clean: experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir
+# Target rules for target experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build.make controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build.make controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build
+experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build.make experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build.make experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target diagnostic_msgs_generate_messages_nodejs"
-.PHONY : controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/all
+.PHONY : experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule
+.PHONY : experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-diagnostic_msgs_generate_messages_nodejs: controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule
+diagnostic_msgs_generate_messages_nodejs: experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule
 
 .PHONY : diagnostic_msgs_generate_messages_nodejs
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build.make controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/clean
+experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build.make experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/clean
+.PHONY : experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/clean
+clean: experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
+# Target rules for target experimentLogic/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+experimentLogic/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make experimentLogic/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make experimentLogic/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_cpp"
-.PHONY : controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+.PHONY : experimentLogic/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+.PHONY : experimentLogic/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-sensor_msgs_generate_messages_cpp: controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+sensor_msgs_generate_messages_cpp: experimentLogic/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 
 .PHONY : sensor_msgs_generate_messages_cpp
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+experimentLogic/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make experimentLogic/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+.PHONY : experimentLogic/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+clean: experimentLogic/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir
+# Target rules for target experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
+experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target diagnostic_msgs_generate_messages_lisp"
-.PHONY : controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
+.PHONY : experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
+.PHONY : experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-diagnostic_msgs_generate_messages_lisp: controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
+diagnostic_msgs_generate_messages_lisp: experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
 
 .PHONY : diagnostic_msgs_generate_messages_lisp
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
+experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
+.PHONY : experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
+clean: experimentLogic/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_eus.dir
+# Target rules for target experimentLogic/CMakeFiles/sensor_msgs_generate_messages_eus.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+experimentLogic/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make experimentLogic/CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make experimentLogic/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_eus"
-.PHONY : controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+.PHONY : experimentLogic/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+.PHONY : experimentLogic/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-sensor_msgs_generate_messages_eus: controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+sensor_msgs_generate_messages_eus: experimentLogic/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 
 .PHONY : sensor_msgs_generate_messages_eus
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
+experimentLogic/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make experimentLogic/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
+.PHONY : experimentLogic/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
+clean: experimentLogic/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
+# Target rules for target experimentLogic/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+experimentLogic/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f experimentLogic/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make experimentLogic/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f experimentLogic/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make experimentLogic/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_lisp"
-.PHONY : controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+.PHONY : experimentLogic/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+experimentLogic/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 experimentLogic/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/rosWearableWS/build/CMakeFiles 0
-.PHONY : controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+.PHONY : experimentLogic/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-sensor_msgs_generate_messages_lisp: controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+sensor_msgs_generate_messages_lisp: experimentLogic/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 
 .PHONY : sensor_msgs_generate_messages_lisp
 
 # clean rule for target.
-controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
-.PHONY : controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+experimentLogic/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f experimentLogic/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make experimentLogic/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+.PHONY : experimentLogic/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: controlSignal2Arduino/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+clean: experimentLogic/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 

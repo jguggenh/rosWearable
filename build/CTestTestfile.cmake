@@ -5,7 +5,9 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs(gtest)
+subdirs(controlServos)
+subdirs(emg2ServoPos)
 subdirs(logExpOutput)
 subdirs(readEMG)
-subdirs(controlSignal2Arduino)
+subdirs(experimentLogic)
 subdirs(xboxPublisher)

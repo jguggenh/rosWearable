@@ -117,9 +117,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/jacob/rosWearableWS/build/gtest/cmake_install.cmake")
+  include("/home/jacob/rosWearableWS/build/controlServos/cmake_install.cmake")
+  include("/home/jacob/rosWearableWS/build/emg2ServoPos/cmake_install.cmake")
   include("/home/jacob/rosWearableWS/build/logExpOutput/cmake_install.cmake")
   include("/home/jacob/rosWearableWS/build/readEMG/cmake_install.cmake")
-  include("/home/jacob/rosWearableWS/build/controlSignal2Arduino/cmake_install.cmake")
+  include("/home/jacob/rosWearableWS/build/experimentLogic/cmake_install.cmake")
   include("/home/jacob/rosWearableWS/build/xboxPublisher/cmake_install.cmake")
 
 endif()
