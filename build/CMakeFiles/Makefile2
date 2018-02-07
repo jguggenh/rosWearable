@@ -503,6 +503,24 @@ emg2ServoPos/preinstall:
 .PHONY : emg2ServoPos/preinstall
 
 #=============================================================================
+# Directory level rules for directory forceGloveController
+
+# Convenience name for "all" pass in the directory.
+forceGloveController/all:
+
+.PHONY : forceGloveController/all
+
+# Convenience name for "clean" pass in the directory.
+forceGloveController/clean:
+
+.PHONY : forceGloveController/clean
+
+# Convenience name for "preinstall" pass in the directory.
+forceGloveController/preinstall:
+
+.PHONY : forceGloveController/preinstall
+
+#=============================================================================
 # Directory level rules for directory logExpOutput
 
 # Convenience name for "all" pass in the directory.
@@ -946,6 +964,24 @@ readEMG/CMakeFiles/readEMG_gennodejs.dir/clean:
 clean: readEMG/CMakeFiles/readEMG_gennodejs.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory readForceGlove
+
+# Convenience name for "all" pass in the directory.
+readForceGlove/all:
+
+.PHONY : readForceGlove/all
+
+# Convenience name for "clean" pass in the directory.
+readForceGlove/clean:
+
+.PHONY : readForceGlove/clean
+
+# Convenience name for "preinstall" pass in the directory.
+readForceGlove/preinstall:
+
+.PHONY : readForceGlove/preinstall
 
 #=============================================================================
 # Directory level rules for directory experimentLogic
@@ -1788,6 +1824,24 @@ experimentLogic/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
 clean: experimentLogic/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory xbox2Glasses
+
+# Convenience name for "all" pass in the directory.
+xbox2Glasses/all:
+
+.PHONY : xbox2Glasses/all
+
+# Convenience name for "clean" pass in the directory.
+xbox2Glasses/clean:
+
+.PHONY : xbox2Glasses/clean
+
+# Convenience name for "preinstall" pass in the directory.
+xbox2Glasses/preinstall:
+
+.PHONY : xbox2Glasses/preinstall
 
 #=============================================================================
 # Directory level rules for directory xboxPublisher

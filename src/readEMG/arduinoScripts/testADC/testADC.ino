@@ -59,16 +59,16 @@ void loop(void)
 
   time = millis();
 
-  if (time > 1000*timeDisplay)
-  {
+//  if (time > 1000*timeDisplay)
+//  {
     timeDisplay = timeDisplay + 1;
-    Serial.print(emg1);
-    Serial.print(", ");
-    Serial.print(emg2);
-    Serial.print(", ");
-    Serial.println(reads);
-    reads = 0;
-  } 
+//    Serial.print(emg1);
+//    Serial.print(", ");
+    Serial.println(emg2);
+//    Serial.print(", ");
+//    Serial.println(reads);
+//    reads = 0;
+//  } 
   //  if (time > timeDisplay)
   //  {
   //    Serial.print(emg1);

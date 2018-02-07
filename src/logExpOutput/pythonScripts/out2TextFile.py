@@ -23,7 +23,7 @@ def start():
 	rospy.init_node('out2TextFile', anonymous=True)
 
 	# subscribe to follow arm pub
-	rospy.Subscriber("followArmPub", Int16, followCallback)
+	rospy.Subscriber("servoPosFG", Int16, followCallback)
 
 	# subscribe to lead pub
 	rospy.Subscriber("leadArmPub", Int16, leadCallback)

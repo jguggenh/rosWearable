@@ -26,7 +26,8 @@ def buttonCallback(data):
 		emgSubscriber.unregister()
 		
 		# start new one
-		runTrial(0)
+		global controlSignal
+		runTrial(controlSignal)
 
 def emgCallback(data):
 	# publish emg
@@ -52,6 +53,7 @@ def start():
 	time.sleep(3)
 
 	# which control signal are we using (0 = xbox, 1 = emg)? 
+	global controlSignal
 	controlSignal = 0
 
 	# call runTrial

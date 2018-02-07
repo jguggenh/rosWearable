@@ -31,10 +31,10 @@ J   = 0.633684; %[Kg*m^2]
 tau_max_cont = 21; %[Nm]
 
 %Joint limits
-thetaR1_max = 70/180*pi;  %[rad]
-thetaR1_min = -70/180*pi; %[rad]
-thetaL1_max = 70/180*pi;  %[rad]
-thetaL1_min = -70/180*pi; %[rad]
+thetaR1_max = 80/180*pi;  %[rad]
+thetaR1_min = -80/180*pi; %[rad]
+thetaL1_max = 80/180*pi;  %[rad]
+thetaL1_min = -80/180*pi; %[rad]
 
 %Gains used to enforce joint limits
 xsi_stop = 0.95;
