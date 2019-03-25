@@ -1,8 +1,0 @@
-prefix=/home/jacob/rosWearableWS/install
-
-Name: controlServos
-Description: Description of controlServos
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/jacob/rosWearableWS/install/lib 
-Requires: 

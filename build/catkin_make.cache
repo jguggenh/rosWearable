@@ -1,2 +1,0 @@
-controlServos:controlServosTrackingExperiment:emg2ServoPos:experimentLogic:forceGloveController:logExpOutput:posTrajCreation:readEMG:readForceGlove:xbox2Glasses:xboxPublisher
--DCATKIN_DEVEL_PREFIX=/home/jacob/rosWearableWS/devel -DCMAKE_INSTALL_PREFIX=/home/jacob/rosWearableWS/install -G Unix Makefiles

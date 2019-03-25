@@ -1,8 +1,0 @@
-prefix=/home/jacob/rosWearableWS/devel
-
-Name: xbox2Glasses
-Description: Description of xbox2Glasses
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/jacob/rosWearableWS/devel/lib 
-Requires: 

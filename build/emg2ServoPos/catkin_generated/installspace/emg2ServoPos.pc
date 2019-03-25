@@ -1,8 +1,0 @@
-prefix=/home/jacob/rosWearableWS/install
-
-Name: emg2ServoPos
-Description: Description of emg2ServoPos
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/jacob/rosWearableWS/install/lib 
-Requires: 

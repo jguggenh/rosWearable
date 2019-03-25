@@ -1,8 +1,0 @@
-prefix=/home/jacob/rosWearableWS/install
-
-Name: readEMG
-Description: Description of readEMG
-Version: 0.0.0
-Cflags: -I/home/jacob/rosWearableWS/install/include
-Libs: -L/home/jacob/rosWearableWS/install/lib 
-Requires: message_runtime
