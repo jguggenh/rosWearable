@@ -4,14 +4,13 @@ addpath(genpath(pwd));
 
 %% start initializing parameters
 %Simulation sampling time
-Ts_sim = 0.004; %[s]
+Ts_sim = 0.004;
 
 %Control strategy: always velocity control (PI)
 %Input to the controller
 %1: artificial input(for testing)
 %2: real-time EMG from DAQ
-input_type = 2;
-
+input_type = 2 
 %Phase of the experiment
 %1: only natural arms
 %2: only robotic arms

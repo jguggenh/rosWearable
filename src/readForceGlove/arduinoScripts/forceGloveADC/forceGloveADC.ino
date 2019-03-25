@@ -15,8 +15,10 @@ ros::Publisher forceGlovePub("forceGlovePub", &forceGloveSignal);
 //ros::Publisher stPub("stPub", &stSignal);
 
 // pins for fsr
+int fsrPin2 = 0;     // the FSR and 10K pulldown are connected to a0
 int fsrPinThumb = 1;     // the FSR and 10K pulldown are connected to a0
-int fsrPinPointer = 4;     // the FSR and 10K pulldown are connected to a0
+int fsrPinPointer = 6;     // the FSR and 10K pulldown are connected to a0
+int fsrPinMiddle = 7;
 
 int prevTime = 0;
 int currTime = 0;

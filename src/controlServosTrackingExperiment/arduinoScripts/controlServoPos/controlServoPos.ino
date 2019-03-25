@@ -2,6 +2,7 @@
 #include <ArduinoHardware.h>
 #include <std_msgs/Int16.h>
 #include <std_msgs/Float64.h>
+#include <sensor_msgs/Joy.h>
 #include <VarSpeedServo.h>
 
 // define pins/variables for servo
@@ -22,9 +23,9 @@ int servo2Offset = -17;
 //ros stuff
 ros::NodeHandle ard2Servos;
 
-void followCallback(const std_msgs::Int16& followData)
+void followCallback(const sensor_msgs::Joy& joyData)
 {
- int servo1Pos = followData.data;
+ int servo1Pos = int((joyData.axes[1]+1)*70+20);
  servo1.slowmove(180-servo1Pos+servo1Offset, servo1Speed);
 }
 
@@ -35,7 +36,7 @@ void leadCallback(const std_msgs::Int16& leadData)
 }
   
 // create subscribers to both followArmPub and leadArmPub  
-ros::Subscriber<std_msgs::Int16> followSub("followArmPub", &followCallback);
+ros::Subscriber<sensor_msgs::Joy> followSub("joy", &followCallback);
 ros::Subscriber<std_msgs::Int16> leadSub("leadArmPub", &leadCallback);
 
 // test pub
@@ -51,14 +52,14 @@ void setup()
   ard2Servos.subscribe(followSub);
   ard2Servos.subscribe(leadSub);
 
-  //test pub for timing
-  ard2Servos.advertise(testPub);
+//  //test pub for timing
+//  ard2Servos.advertise(testPub);
   
   // initiate servo1
   int blah1 = servo1.read();
   servo1.attach(servo1Pin,0,255);
   servo1.write(blah1);
-  servo1.slowmove(90+servo1Offset, servo1Speed);
+  servo1.slowmove(0+servo1Offset, servo1Speed);
 
   // initiate servo2
   int blah2 = servo2.read();
@@ -71,11 +72,11 @@ void setup()
 
 void loop()
 {
-  // test pub
-  currTime = millis();
-  timing.data = currTime - prevTime;
-  prevTime = currTime;
-  testPub.publish(&timing);
+//  // test pub
+//  currTime = millis();
+//  timing.data = currTime - prevTime;
+//  prevTime = currTime;
+//  testPub.publish(&timing);
   
   // ros
   ard2Servos.spinOnce();

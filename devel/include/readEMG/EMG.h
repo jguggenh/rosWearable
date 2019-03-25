@@ -44,6 +44,7 @@ struct EMG_
 
 
 
+
   typedef boost::shared_ptr< ::readEMG::EMG_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::readEMG::EMG_<ContainerAllocator> const> ConstPtr;
 

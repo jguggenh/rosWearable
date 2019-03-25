@@ -16,7 +16,7 @@ echo_and_run() { echo "+ $@" ; "$@" ; }
 
 echo_and_run cd "/home/jacob/rosWearableWS/src/readEMG"
 
-# snsure that Python install destination exists
+# ensure that Python install destination exists
 echo_and_run mkdir -p "$DESTDIR/home/jacob/rosWearableWS/install/lib/python2.7/dist-packages"
 
 # Note that PYTHONPATH is pulled from the environment to support installing

@@ -60,7 +60,7 @@ readEMG/CMakeFiles/readEMG_generate_messages_cpp: /home/jacob/rosWearableWS/deve
 /home/jacob/rosWearableWS/devel/include/readEMG/EMG.h: /home/jacob/rosWearableWS/src/readEMG/msg/EMG.msg
 /home/jacob/rosWearableWS/devel/include/readEMG/EMG.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jacob/rosWearableWS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from readEMG/EMG.msg"
-	cd /home/jacob/rosWearableWS/build/readEMG && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jacob/rosWearableWS/src/readEMG/msg/EMG.msg -IreadEMG:/home/jacob/rosWearableWS/src/readEMG/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p readEMG -o /home/jacob/rosWearableWS/devel/include/readEMG -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/jacob/rosWearableWS/src/readEMG && /home/jacob/rosWearableWS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jacob/rosWearableWS/src/readEMG/msg/EMG.msg -IreadEMG:/home/jacob/rosWearableWS/src/readEMG/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p readEMG -o /home/jacob/rosWearableWS/devel/include/readEMG -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 readEMG_generate_messages_cpp: readEMG/CMakeFiles/readEMG_generate_messages_cpp
 readEMG_generate_messages_cpp: /home/jacob/rosWearableWS/devel/include/readEMG/EMG.h
